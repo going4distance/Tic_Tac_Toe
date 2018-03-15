@@ -13,7 +13,6 @@ int SetSquare();
 
 int main() {
 	char win_con = 'N';
-
 	while (win_con == 'N') {
 		TogglePlayer();
 		Draw();
@@ -27,7 +26,6 @@ int main() {
 	else{
 	cout << endl << player << " has won the match!" << endl;
 	}
-
 	system("pause");
 	return 0;
 }
